@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="#5E2285FF"
+        android:text="Calcula Media do Alunos"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="552dp"
+        android:layout_marginTop="10dp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btncalcular"
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="125dp"
+                android:layout_marginLeft="10dp"
+                android:text="CALCULAR"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtnotafinal"
+                android:layout_width="103dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="150dp"
+                android:layout_marginTop="5dp"
+                android:text="Media"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtmediafinal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="150dp"
+                android:text="Nota Final"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txtnota1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="130dp"
+            android:layout_marginTop="20dp"
+            android:text="Nota 1° - Avaliação"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtNota1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtnota2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="130dp"
+            android:text="Nota 2° - Avaliação"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtNota2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtnota3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="130dp"
+            android:text="Nota 3° - Avaliação"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtNota3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtnota4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="130dp"
+            android:text="Nota 4° - Avaliação"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtNota4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginVertical="10dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:backgroundTint="#CAE1F5"
+        android:text="Button" />
+
+</LinearLayout>
